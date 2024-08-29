@@ -10,21 +10,22 @@ main {
   overflow: auto;
   padding: 4rem;
 
+
   & .main-container {
     max-width: 33rem;
-    margin-left: auto;
+    margin: auto;
   }
 
-  & .back{
+  & .back {
     display: flex;
     align-items: center;
-    gap: 5rem;
+    gap: .5rem;
     margin-bottom: 1.5rem;
 
   }
 
   & h1 {
-    font:var(--h2);
+    font: var(--h2);
     margin-bottom: .5rem;
   }
 }
@@ -32,9 +33,12 @@ main {
 aside {
   background-color: var(--surface-secondary);
   padding: 4rem;
-
-  &.aside-container {
-    max-width: 31rem;
+  
+  
+  & .aside-container {
+    margin:  auto;
+    max-width: 37rem;
+    
 
     & > img {
       margin-top: 2rem;
@@ -51,4 +55,3 @@ aside {
     }
   }
 }
-
